@@ -1,0 +1,9 @@
+#HOT_SWAP (ОТЛОЖЕНО)
+
+Команда для обновления класса на ноде
+
+Пример:
+
+HOT_SWAP {"className":"com.geargames.aow.service.netty.MessageDecoder"}
+
+Маппинг команды:POST любой сервис/HOT_SWAP-d "{"className":"com.geargames.aow.service.netty.MessageDecoder"}
